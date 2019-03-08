@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8547" started-at="2019-03-07T11:54:25Z" finished-at="2019-03-07T11:54:33Z">
+    <groups>
+      <group name="Basic-group">
+        <method signature="Testclass.Test02_gridGateTatoc()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test02_gridGateTatoc" class="com.qait.TatoctestNg.Testclass"/>
+        <method signature="Testclass.Test03_frame()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test03_frame" class="com.qait.TatoctestNg.Testclass"/>
+        <method signature="Testclass.Test04_dragTest()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test04_dragTest" class="com.qait.TatoctestNg.Testclass"/>
+        <method signature="Testclass.Test05_popupWindowTest()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test05_popupWindowTest" class="com.qait.TatoctestNg.Testclass"/>
+        <method signature="Testclass.Test06_LaunchpopupWindow()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test06_LaunchpopupWindow" class="com.qait.TatoctestNg.Testclass"/>
+        <method signature="Testclass.Test07_cookieHandling()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test07_cookieHandling" class="com.qait.TatoctestNg.Testclass"/>
+        <method signature="Testclass.Test08_advancedCourse()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test08_advancedCourse" class="com.qait.TatoctestNg.Testclass"/>
+      </group> <!-- Basic-group -->
+      <group name="Default-group">
+        <method signature="Testclass.Test01_LaunchTest()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test01_LaunchTest" class="com.qait.TatoctestNg.Testclass"/>
+      </group> <!-- Default-group -->
+      <group name="Advanced-group">
+        <method signature="Testclass.Test09_dropDown()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test09_dropDown" class="com.qait.TatoctestNg.Testclass"/>
+      </group> <!-- Advanced-group -->
+    </groups>
+    <test name="Default test" duration-ms="8547" started-at="2019-03-07T11:54:25Z" finished-at="2019-03-07T11:54:33Z">
+      <class name="com.qait.TatoctestNg.Testclass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="beforeClass" is-config="true" duration-ms="1500" started-at="2019-03-07T17:24:25Z" finished-at="2019-03-07T17:24:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test01_LaunchTest()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test01_LaunchTest" duration-ms="1208" started-at="2019-03-07T17:24:26Z" finished-at="2019-03-07T17:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test01_LaunchTest -->
+        <test-method status="PASS" signature="Test02_gridGateTatoc()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test02_gridGateTatoc" duration-ms="271" started-at="2019-03-07T17:24:28Z" finished-at="2019-03-07T17:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test02_gridGateTatoc -->
+        <test-method status="PASS" signature="Test03_frame()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test03_frame" duration-ms="2670" started-at="2019-03-07T17:24:28Z" finished-at="2019-03-07T17:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test03_frame -->
+        <test-method status="PASS" signature="Test04_dragTest()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test04_dragTest" duration-ms="245" started-at="2019-03-07T17:24:30Z" finished-at="2019-03-07T17:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test04_dragTest -->
+        <test-method status="PASS" signature="Test05_popupWindowTest()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test05_popupWindowTest" duration-ms="302" started-at="2019-03-07T17:24:31Z" finished-at="2019-03-07T17:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test05_popupWindowTest -->
+        <test-method status="PASS" signature="Test06_LaunchpopupWindow()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test06_LaunchpopupWindow" duration-ms="546" started-at="2019-03-07T17:24:31Z" finished-at="2019-03-07T17:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test06_LaunchpopupWindow -->
+        <test-method status="PASS" signature="Test07_cookieHandling()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test07_cookieHandling" duration-ms="760" started-at="2019-03-07T17:24:32Z" finished-at="2019-03-07T17:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test07_cookieHandling -->
+        <test-method status="PASS" signature="Test08_advancedCourse()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test08_advancedCourse" duration-ms="208" started-at="2019-03-07T17:24:32Z" finished-at="2019-03-07T17:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test08_advancedCourse -->
+        <test-method status="PASS" signature="Test09_dropDown()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="Test09_dropDown" duration-ms="722" started-at="2019-03-07T17:24:33Z" finished-at="2019-03-07T17:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test09_dropDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qait.TatoctestNg.Testclass@7dc7cbad]" name="afterClass" is-config="true" duration-ms="78" started-at="2019-03-07T17:24:33Z" finished-at="2019-03-07T17:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qait.TatoctestNg.Testclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

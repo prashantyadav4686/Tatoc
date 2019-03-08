@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Basic-group"/>
+        <exclude name="Advanced-group"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qait.TatoctestNg.Testclass">
+        <methods>
+          <include name="Test02_gridGateTatoc"/>
+          <include name="Test03_frame"/>
+          <include name="Test05_popupWindowTest"/>
+          <include name="Test06_LaunchpopupWindow"/>
+          <include name="Test07_cookieHandling"/>
+          <include name="Test04_dragTest"/>
+          <include name="Test08_advancedCourse"/>
+        </methods>
+      </class> <!-- com.qait.TatoctestNg.Testclass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
